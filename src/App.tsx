@@ -1,24 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Header } from "./components/Header";
+import { Leyser } from "./components/Leyser";
+import { Tazrigh } from "./components/Tazrigh";
+import { Javansazi } from "./components/Javansazi";
+import { Paksazi } from "./components/Paksazi";
+import { Footer } from "./components/Footer";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="md:px-36">
+      <Header />
+      <Leyser />
+      <Tazrigh />
+      <Javansazi />
+      <Paksazi />
+      <Footer />
     </div>
   );
 }
