@@ -17,7 +17,8 @@ export function Javansazi() {
         <img
           className="col-span-3 md:col-span-1 order-1 md:order-2"
           src="https://reservation-pink.vercel.app/img/people.svg"
-        ></img>
+          alt="people"
+        />
       </div>
     </>
   );

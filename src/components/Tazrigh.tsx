@@ -5,7 +5,8 @@ export function Tazrigh() {
         <img
           className="col-span-3 md:col-span-1"
           src="https://reservation-pink.vercel.app/img/hospital.svg"
-        ></img>
+          alt="hospital"
+        />
         <div
           className="col-span-3 md:col-span-2 flex flex-col justify-center text-right p-4"
           style={{ direction: "rtl" }}
